@@ -5,6 +5,7 @@ Desktop.ini
 
 # Ferramentas de editor / agente
 .opencode/
+.playwright-mcp/
 .vscode/
 .idea/
 
