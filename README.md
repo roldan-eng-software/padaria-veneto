@@ -34,12 +34,15 @@ O selo **"Aberto agora / Fechado"** é calculado em tempo real no navegador do v
 
 ### 1. Domínio
 
-Troque `https://padariaveneto.com.br` pelo domínio real em 4 lugares:
+O site está publicado em **https://roldan-eng-software.github.io/padaria-veneto/**.
+
+Quando registrar um domínio próprio, troque a URL atual em 3 lugares:
 
 - `<link rel="canonical">`
 - `og:url`
 - campo `"url"` e `"@id"` dentro do bloco JSON-LD (`application/ld+json`)
-- campo `"hasMap"` (opcional, já aponta para o Google Maps)
+
+Depois, no GitHub: **Settings → Pages → Custom domain**, aponte o DNS e marque *Enforce HTTPS*.
 
 ### 2. Delivery (opcional)
 
@@ -85,11 +88,17 @@ Para trocar por fotos próprias:
 
 ## Publicando
 
-Qualquer host estático serve, porque é um arquivo único:
+O site já está no ar via **GitHub Pages** (branch `main`, pasta raiz).
+Qualquer `git push` na `main` republica automaticamente em 1–2 minutos.
+
+Outros hosts estáticos também funcionam, porque é um arquivo único:
 
 - **Netlify / Vercel:** arraste a pasta para o painel (https://app.netlify.com/drop).
-- **GitHub Pages:** suba o repositório e ative o Pages.
 - **Hostinger / cPanel:** envie o `index.html` para a pasta pública (`public_html`).
+
+> O Pages exige repositório público no plano gratuito do GitHub. Se um dia o
+> repositório voltar a ser privado, o site sai do ar até assinar o GitHub Pro
+> ou publicar em outro host.
 
 ---
 
