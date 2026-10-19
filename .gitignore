@@ -1,0 +1,13 @@
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Ferramentas de editor / agente
+.opencode/
+.vscode/
+.idea/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
