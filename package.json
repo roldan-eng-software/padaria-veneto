@@ -1,0 +1,35 @@
+{
+  "name": "padaria-veneto",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Landing page estática da Padaria Veneto (São Carlos/SP), sem frameworks e sem build, com testes de performance e segurança em Playwright.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "landing-page",
+    "html",
+    "css",
+    "javascript",
+    "playwright",
+    "acessibilidade",
+    "performance"
+  ],
+  "author": "Roldan (https://github.com/roldan-eng-software)",
+  "license": "UNLICENSED",
+  "homepage": "https://roldan-eng-software.github.io/padaria-veneto/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roldan-eng-software/padaria-veneto.git"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "prettier": "^3.9.10"
+  }
+}

@@ -1,3 +1,10 @@
+# Dependências e artefatos de teste
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+
 # Sistema operacional
 Thumbs.db
 Desktop.ini

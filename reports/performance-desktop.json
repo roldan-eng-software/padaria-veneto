@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-22T11:57:52.806Z",
+  "project": "desktop",
+  "baseUrl": "http://127.0.0.1:4173",
+  "wallClockMs": 823,
+  "ttfbMs": 61,
+  "domContentLoadedMs": 738,
+  "loadMs": 813,
+  "domNodes": 656,
+  "resourceCount": 6,
+  "externalResourceCount": 1,
+  "scriptCount": 1,
+  "stylesheetCount": 1,
+  "imageCount": 17,
+  "lazyImageCount": 15,
+  "layoutShift": 0,
+  "consoleErrors": [],
+  "pageErrors": [],
+  "budget": {
+    "domContentLoadedMs": 3000,
+    "loadMs": 15000,
+    "ttfbMs": 1500,
+    "domNodes": 2500,
+    "layoutShift": 0.1,
+    "consoleErrors": 0,
+    "pageErrors": 0
+  },
+  "passed": true
+}
